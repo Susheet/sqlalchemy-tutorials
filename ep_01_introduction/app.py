@@ -12,6 +12,7 @@ url_object = URL.create(
     database='ep_01_database.db',
 )
 
+# <dialect>+<driver>://<username>:<password>@<host>:<port>/<database>
 # Create an engine for a SQLite database
 engine = create_engine(url_object)
 # or
